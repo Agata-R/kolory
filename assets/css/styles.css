@@ -1,0 +1,85 @@
+/*
+
+
+
+	---------------------  */
+
+	html{
+		box-sizing: border-box;
+		margin:0;
+		padding:0;
+	}
+	html *,
+	html *:before
+	html *:after{
+		box-sizing:inherit;
+	}
+	body{
+		font:normal normal 17px Calibri, sans-serif;
+		color:#222;
+		margin:0;
+		padding:0;
+	}
+	h1, h2, h3, h4, h5, h6{
+		margin:0;
+		padding:0;
+	}
+	.btn{
+		border: none;
+		background: #222;
+		color: #fff;
+		border-radius: 25px;
+		padding: 15px 5px;
+		text-transform: uppercase;
+		font-size: 0.65em;
+		letter-spacing: 2px;
+		font-weight: 700;
+		width: 220px;
+		cursor:pointer;
+		transition:.3s ease;
+		box-shadow: 0 0 0 rgba(75,75,75,.7);
+	}
+	
+	.btn:hover{
+		box-shadow:0 0 25px rgba(25,25,25,.7);
+	}
+	
+	.section{
+		text-align:center;
+		padding:50px;
+	}
+	.page_header{
+		background-color:#eee;
+	}
+	.page_footer{
+		background-color:#222;
+		color:#fff;
+	}
+	.form .item{
+		display:block;
+		margin: 15px auto;
+	}
+	.form .item.picker{
+		border: none;
+		padding: 0;
+		background-color: transparent;
+		width: 100px;
+		height: 50px;
+	}
+	.form .item:first-child{
+		margin-top:0;
+	}
+	.form .item:last-child{
+		margin-bottom:0;
+	}
+		
+	.tones{
+		
+		margin:50px 0;
+		
+	}	
+	.ton {
+		width: 80px;
+		height: 250px;
+		display: inline-block;
+	}
